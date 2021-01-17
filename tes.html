@@ -10,6 +10,20 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <!-- ==========================  NOTE: CSS -->
+    <style>
+      .jumbo1 {
+        background-image: url("images/jumbotron1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .jumbo2 {
+        background-image: url("images/jumbotron2.jpg");
+        background-size: cover;
+      }
+    </style>
     <title>Ecommerce with Bootstrap - Latihan Front End 3</title>
   </head>
   <body>
@@ -89,13 +103,12 @@
     </nav>
 
     <!-- ============================================================  NOTE: SECTION #1 -->
-    <!-- ============================================================  NOTE: HEADER #1 -->
+    <!-- ============================================================  NOTE: JUMBOTRON #1 -->
 
-    <div class="container-fluid p-0" style="background-color: lime">
-      <a href="#">
-        <img src="images/jumbotron1.jpg" alt="" style="width: 100%"
-      /></a>
-    </div>
+    <a href="#">
+      <div class="jumbotron jumbo1" style="height: 760px"></div>
+    </a>
+
     <!-- ============================================================  NOTE: FIRST PRODUCT THUMBNAILS -->
     <div class="container-fluid justify-content-center text-center">
       <!-- ==========================  NOTE: TEXT -->
@@ -224,12 +237,11 @@
     </div>
 
     <!-- ============================================================  NOTE: SECTION #2 -->
-    <!-- ============================================================  NOTE: HEADER #2 -->
-    <div class="container-fluid p-0" style="background-color: lime">
-      <a href="#">
-        <img src="images/jumbotron2.jpg" alt="" style="width: 100%"
-      /></a>
-    </div>
+    <!-- ============================================================  NOTE: JUMBOTRON #2 -->
+    <a href="#">
+      <div class="jumbotron jumbo2" style="height: 760px"></div>
+    </a>
+
     <!-- ============================================================  NOTE: SECOND PRODUCT THUMBNAILS -->
     <div class="container-fluid justify-content-center text-center">
       <!-- ==========================  NOTE: TEXT -->
@@ -356,114 +368,8 @@
         <button class="btn btn-dark my-5 px-4">VIEW ALL</button>
       </div>
     </div>
-
-    <!-- ============================================================  NOTE: SECTION #3 -->
-    <div class="container-fluid px-5">
-      <div class="container-fluid px-5">
-        <div class="container-fluid">
-          <div class="row">
-            <!-- ==========================  NOTE: THUMBNAIL 1 -->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-              <div class="card border-0">
-                <a href="#">
-                  <img
-                    class="card-img-top"
-                    src="images/thumb3p1.jpg"
-                    alt="Card image cap"
-                    style="max-height: 500px; object-fit: cover"
-                  />
-                </a>
-                <div class="card-body">
-                  <h3
-                    class="card-title"
-                    href="#"
-                    style="
-                      color: black;
-                      text-decoration: none;
-                      letter-spacing: 0.15em;
-                      font-weight: 600;
-                    "
-                  >
-                    WANDER IN FALL
-                  </h3>
-                  <p class="card-text">
-                    Fall shades, floral prints, vintage pieces, never get enough
-                    with this collection.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- THUMBNAIL 1 END -->
-            <!-- ==========================  NOTE: THUMBNAIL 2 -->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-              <div class="card border-0">
-                <a href="#">
-                  <img
-                    class="card-img-top"
-                    src="images/thumb3p2.jpg"
-                    alt="Card image cap"
-                    style="max-height: 500px; object-fit: cover"
-                  />
-                </a>
-                <div class="card-body">
-                  <h3
-                    class="card-title"
-                    href="#"
-                    style="
-                      color: black;
-                      text-decoration: none;
-                      letter-spacing: 0.15em;
-                      font-weight: 600;
-                    "
-                  >
-                    WANDER IN FALL
-                  </h3>
-                  <p class="card-text">
-                    Fall shades, floral prints, vintage pieces, never get enough
-                    with this collection.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- THUMBNAIL 2 END -->
-            <!-- ==========================  NOTE: THUMBNAIL 3 -->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-              <div class="card border-0">
-                <a href="#">
-                  <img
-                    class="card-img-top"
-                    src="images/thumb3p3.jpg"
-                    alt="Card image cap"
-                    style="max-height: 500px; object-fit: cover"
-                  />
-                </a>
-                <div class="card-body">
-                  <h3
-                    class="card-title"
-                    href="#"
-                    style="
-                      color: black;
-                      text-decoration: none;
-                      letter-spacing: 0.15em;
-                      font-weight: 600;
-                    "
-                  >
-                    WANDER IN FALL
-                  </h3>
-                  <p class="card-text">
-                    Fall shades, floral prints, vintage pieces, never get enough
-                    with this collection.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- THUMBNAIL 3 END -->
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- ============================================================  NOTE: SEPARATOR -->
-    <div style="height: 500px; background-color: lightgrey"></div>
+    <div style="height: 500px; background-color: lightyellow"></div>
     <!-- ============================================================  NOTE: BOOTSTRAP'S JQUERY -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
