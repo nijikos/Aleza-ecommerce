@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <style>
+      .jumbo1 {
+        background-image: url("images/jumbotron1.jpg");
+        background-size: cover;
+      }
+
+      .jumbo2 {
+        background-image: url("images/jumbotron2.jpg");
+        background-size: cover;
+      }
+    </style>
+    <title>Ecommerce with Bootstrap - Latihan Front End 3</title>
+  </head>
+  <body>
+    <!-- ============================================================  NOTE: NAVBAR SECTION -->
+    <!-- ==========================  NOTE: MARQUEE TEXT -->
+    <div class="container-fluid bg-dark text-white">
+      <marquee behavior="" direction=""
+        >WE SHIP WORLDWIDE. YAY! ALEZA IS NOW ABLE TO SHIP PRODUCTS TO YOUR
+        COUNTRY. PLEASE CLICK ME TO READ INTERNATIONAL SHIPPING INFORMATION
+        BEFORE YOU SHOP</marquee
+      >
+    </div>
+    <!-- ==========================  NOTE: LOGO NAME -->
+    <nav class="navbar navbar-light bg-light pt-3">
+      <span
+        class="navbar-brand mb-0 h1"
+        style="font-size: 2.8em; letter-spacing: 0.3em"
+        >ALEZA</span
+      >
+
+      <!-- ==========================  NOTE: SEARCHBAR INSIDE NAV -->
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </nav>
+    <!-- ==========================  NOTE: NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pb-4">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >NEW IN <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LABEL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CATEGORIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SHOP BY STYLE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">#ALEZASTYLEDBY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="#">KIDS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-dark text-white ml-3 px-4" href="#"
+              >DEALS CORNER</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ============================================================  NOTE: SECTION #1 -->
+    <!-- ============================================================  NOTE: JUMBOTRON #1 -->
+    <a href="#">
+      <div class="jumbotron jumbo1" style="height: 760px"></div>
+    </a>
+
+    <!-- ============================================================  NOTE: FIRST PRODUCT THUMBNAILS -->
+    <div class="container-fluid justify-content-center text-center">
+      <!-- ==========================  NOTE: TEXT -->
+      <div class="my-5">
+        <p>
+          THE RETURN OF A BASIC PIECE, A CHIC, A SMART ANSWER TO DAILY WARDROBE.
+          AND HERE’S THE BONUS, MANY DETAILS YOU WILL LOVE.
+        </p>
+        <h2>THE BASIC TWIST</h2>
+      </div>
+
+      <!-- ==========================  NOTE: PRODUCT THUMBNAILS -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- ==========================  NOTE: PRODUCT 1 -->
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="images/thumb1p1.jpg"
+                  alt="Card image cap"
+              /></a>
+              <div class="card-body">
+                <a
+                  class="card-title"
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    letter-spacing: 0.2em;
+                    font-weight: 600;
+                  "
+                  >ONIQUE SHIRT GRAY</a
+                >
+                <p class="card-text">IDR 355.000</p>
+              </div>
+            </div>
+          </div>
+          <!-- PRODUCT 1 END -->
+          <!-- ==========================  NOTE: PRODUCT 2 -->
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="images/thumb1p2.jpg"
+                  alt="Card image cap"
+                />
+              </a>
+
+              <div class="card-body">
+                <a
+                  class="card-title"
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    letter-spacing: 0.2em;
+                    font-weight: 600;
+                  "
+                  >OLEZA TOP BLACK</a
+                >
+                <p class="card-text">IDR 355.000</p>
+              </div>
+            </div>
+          </div>
+          <!-- PRODUCT 2 END -->
+          <!-- ==========================  NOTE: PRODUCT 3 -->
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="images/thumb1p3.jpg"
+                  alt="Card image cap"
+                />
+              </a>
+              <div class="card-body">
+                <a
+                  class="card-title"
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    letter-spacing: 0.2em;
+                    font-weight: 600;
+                  "
+                  >OXI TOP WHITE</a
+                >
+                <p class="card-text">IDR 375.000</p>
+              </div>
+            </div>
+          </div>
+          <!-- PRODUCT 3 END -->
+          <!-- ==========================  NOTE: PRODUCT 4 -->
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="images/thumb1p4.jpg"
+                  alt="Card image cap"
+                />
+              </a>
+              <div class="card-body">
+                <a
+                  class="card-title"
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    letter-spacing: 0.2em;
+                    font-weight: 600;
+                  "
+                  >OMIQA TOP WHITE</a
+                >
+                <p class="card-text">IDR 375.000</p>
+              </div>
+            </div>
+          </div>
+          <!-- PRODUCT 4 END -->
+        </div>
+        <button class="btn btn-dark my-5 px-4">VIEW ALL NEW IN</button>
+      </div>
+    </div>
+
+    <!-- ============================================================  NOTE: SECTION #2 -->
+    <!-- ============================================================  NOTE: JUMBOTRON #2 -->
+    <a href="#">
+      <div class="jumbotron jumbo2" style="height: 760px"></div>
+    </a>
+
+    <!-- ============================================================  NOTE: SECOND PRODUCT THUMBNAILS -->
+    <div class="container-fluid justify-content-center text-center">
+      <!-- ==========================  NOTE: TEXT -->
+      <div class="my-5">
+        <p>
+          SHOP YOUR FAVOURITE SILHOUETTES FROM THE NEW COLLECTION OF E•TERNE BY
+          ALEZA
+        </p>
+        <h2>E•TERNE JANUARY COLLECTION</h2>
+      </div>
+
+      <!-- ==========================  NOTE: PRODUCT THUMBNAILS -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- ==========================  NOTE: PRODUCT 1 -->
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="images/thumb2p1.jpg"
+                  alt="Card image cap"
+              /></a>
+              <div class="card-body">
+                <a
+                  class="card-title"
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    letter-spacing: 0.2em;
+                    font-weight: 600;
+                  "
+                  >ONIQUE SHIRT GRAY</a
+                >
+                <p class="card-text">IDR 325.000</p>
+              </div>
+            </div>
+          </div>
+          <!-- PRODUCT 1 END -->
+          <!-- ==========================  NOTE: PRODUCT 2 -->
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="images/thumb2p2.jpg"
+                  alt="Card image cap"
+                />
+              </a>
+
+              <div class="card-body">
+                <a
+                  class="card-title"
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    letter-spacing: 0.2em;
+                    font-weight: 600;
+                  "
+                  >ONIQUE SHIRT GRAY</a
+                >
+                <p class="card-text">IDR 375.000</p>
+              </div>
+            </div>
+          </div>
+          <!-- PRODUCT 2 END -->
+          <!-- ==========================  NOTE: PRODUCT 3 -->
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="images/thumb2p3.jpg"
+                  alt="Card image cap"
+                />
+              </a>
+              <div class="card-body">
+                <a
+                  class="card-title"
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    letter-spacing: 0.2em;
+                    font-weight: 600;
+                  "
+                  >ONIQUE SHIRT GRAY</a
+                >
+                <p class="card-text">IDR 315.000</p>
+              </div>
+            </div>
+          </div>
+          <!-- PRODUCT 3 END -->
+          <!-- ==========================  NOTE: PRODUCT 4 -->
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="images/thumb2p4.jpg"
+                  alt="Card image cap"
+                />
+              </a>
+              <div class="card-body">
+                <a
+                  class="card-title"
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    letter-spacing: 0.2em;
+                    font-weight: 600;
+                  "
+                  >ONIQUE SHIRT GRAY</a
+                >
+                <p class="card-text">IDR 325.000</p>
+              </div>
+            </div>
+          </div>
+          <!-- PRODUCT 4 END -->
+        </div>
+        <button class="btn btn-dark my-5 px-4">VIEW ALL</button>
+      </div>
+    </div>
+
+    <!-- ============================================================  NOTE: SEPARATOR -->
+    <div style="height: 500px; background-color: rgb(255, 252, 233)"></div>
+    <!-- ============================================================  NOTE: BOOTSTRAP'S JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
