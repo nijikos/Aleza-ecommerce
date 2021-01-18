@@ -12,6 +12,10 @@
     />
 
     <style>
+      body {
+        max-width: 1920px;
+        margin: 0 auto;
+      }
       .bg-none {
         background-color: transparent;
       }
@@ -68,6 +72,10 @@
         padding-right: 35px;
       }
 
+      .header-custom {
+        width: 100%;
+        margin-bottom: 20px;
+      }
       @media (min-width: 992px) {
         .card-custom {
           width: 75%;
@@ -88,10 +96,20 @@
         .nav-custom {
           position: static;
         }
-
+        .header-container {
+          background-color: blue;
+          box-sizing: border-box;
+          overflow: hidden;
+        }
+        .header-container-2 {
+          background-color: blueviolet;
+          box-sizing: border-box;
+          overflow: hidden;
+        }
         .header-custom {
+          background-color: coral;
           height: 80vh;
-          margin-bottom: 16px;
+          position: relative;
         }
       }
       @media screen and (prefers-reduced-motion: no-preference) {
@@ -115,7 +133,7 @@
 
     <!-- ==========================  NOTE: NAVIGATION BAR -->
     <nav
-      class="navbar sticky-top navbar-expand-lg navbar-light bg-light pb-3 nav-custom"
+      class="navbar sticky-top navbar-expand-xl navbar-light bg-light pb-3 nav-custom"
     >
       <span
         class="navbar-brand mb-0 h1"
@@ -341,13 +359,15 @@
       class="container-fluid p-0 header-container"
       style="background-color: lightgray"
     >
-      <a href="#">
-        <img
-          class="header-custom"
-          src="images/jumbotron1.jpg"
-          alt=""
-          style="float: right"
-      /></a>
+      <div class="header-container-2">
+        <a href="#">
+          <img
+            class="header-custom"
+            src="images/jumbotron1.jpg"
+            alt=""
+            style="float: right"
+        /></a>
+      </div>
     </div>
     <!-- ============================================================  NOTE: FIRST PRODUCT THUMBNAILS -->
     <div class="container-fluid justify-content-center text-center">
