@@ -85,6 +85,11 @@
           padding-right: 200px;
         }
       }
+      @media (max-width: 590px) {
+        .nav-custom {
+          position: relative;
+        }
+      }
     </style>
     <title>Ecommerce with Bootstrap - Latihan Front End 3</title>
   </head>
@@ -100,7 +105,9 @@
     </div>
 
     <!-- ==========================  NOTE: NAVIGATION BAR -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light pb-3">
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-light pb-3 nav-custom"
+    >
       <span
         class="navbar-brand mb-0 h1"
         style="font-size: 2.8em; letter-spacing: 0.3em"
