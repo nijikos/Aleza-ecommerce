@@ -19,13 +19,9 @@
         background-color: black;
       }
       .px-100 {
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 50px;
       }
-      .px-200 {
-        padding-left: 200px;
-        padding-right: 200px;
-      }
+
       .btn-sticky-left {
         background-color: white;
         border: none;
@@ -70,6 +66,22 @@
       }
       .pr-id {
         padding-right: 35px;
+      }
+
+      @media (min-width: 992px) {
+        .card-custom {
+          position: relative;
+          right: 80px;
+          max-width: 680px;
+        }
+        .px-100 {
+          padding-left: 100px;
+          padding-right: 100px;
+        }
+        .px-200 {
+          padding-left: 200px;
+          padding-right: 200px;
+        }
       }
     </style>
     <title>Ecommerce with Bootstrap - Latihan Front End 3</title>
@@ -957,11 +969,8 @@
           <div class="w-lg-50 2-sm-100">
             <img src="images/jumbotron4.jpg" alt="" style="height: 90vh" />
           </div>
-          <div class="my-auto" style="width: 680px">
-            <div
-              class="card px-4 border-0"
-              style="position: relative; right: 80px"
-            >
+          <div class="my-auto card-custom">
+            <div class="card px-4 border-0">
               <div class="card-body">
                 <small class="card-subtitle">THE STORY</small>
                 <h5 class="card-title my-4" style="letter-spacing: 0.2em">
@@ -1033,7 +1042,10 @@
           <p class="m-0">WE MORE THAN HAPPY TO ASSIST YOU</p>
           <small
             >Customer Service
-            <a class="text-dark" href="#" style="text-decoration: underline"
+            <a
+              class="text-dark"
+              href="#"
+              style="text-decoration: underline; text-underline-offset: 3px"
               >0857 9896 5880</a
             ></small
           >
@@ -1041,11 +1053,17 @@
         <div class="col-lg-3 col-md-6 col-sm-12 text-center">
           <img class="mb-2" src="icons/b4.png" alt="" style="width: 32px" />
           <p class="m-0">SOCIAL MEDIA</p>
-          <a class="text-dark" href="#" style="text-decoration: underline"
+          <a
+            class="text-dark"
+            href="#"
+            style="text-decoration: underline; text-underline-offset: 3px"
             >@alexalable</a
           >
           <br />
-          <a class="text-dark" href="#" style="text-decoration: underline"
+          <a
+            class="text-dark"
+            href="#"
+            style="text-decoration: underline; text-underline-offset: 3px"
             >@alezaforkids</a
           >
         </div>
@@ -1068,10 +1086,10 @@
     </div>
 
     <!-- ============================================================  NOTE: FOOTER -->
-    <div class="container-fluid px-100 py-5 mb-5">
-      <div class="container-fluid px-200 py-5 mb-5">
+    <div class="container-fluid px-100 mb-5">
+      <div class="container-fluid px-200 mb-5">
         <div class="row">
-          <div class="col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
             <p class="font-weight-bold">INFORMATION</p>
             <a class="text-dark" href="#">ABOUT US</a> <br />
             <a class="text-dark" href="#">FAQS</a> <br />
@@ -1079,7 +1097,7 @@
             <a class="text-dark" href="#">RETURN & EXCHANGE</a> <br />
             <a class="text-dark" href="#">TERMS & CONDITIONS</a> <br />
           </div>
-          <div class="col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
             <p class="font-weight-bold">QUICK LINKS</p>
             <a class="text-dark" href="#">PAYMENT CONFIRMATION</a> <br />
             <a class="text-dark" href="#">CONTACT US</a> <br />
@@ -1091,7 +1109,7 @@
             <a class="text-dark" href="#">BLOGS</a> <br />
             <a class="text-dark" href="#">#ALEZASTYLE</a> <br />
           </div>
-          <div class="col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-1 mt-5">
             <p class="font-weight-bold">STAY IN THE KNOW!</p>
             <form>
               <div class="form-group">
